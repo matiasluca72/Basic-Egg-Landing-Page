@@ -1,0 +1,117 @@
+/* Herramienta de centrado del contenido al medio de la página */
+.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+
+/* Bordes alrededor del form */
+.bordes {
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 15px 10px 20px 10px;
+}
+
+/* Modificaciones a clases de Bootstrap */
+.row {
+  width: 100%;
+}
+
+/* Modificaciones a clases de Bootstrap */
+.btn-light {
+  border: 1px #999 solid;
+}
+
+.splash {
+  background: url(../img/egg_background.jpg) center center fixed;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  padding: 0;
+}
+
+.home_cards {
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home_card_col {
+  width: 30%;
+}
+
+.yellow_card {
+  background: rgba(255, 214, 0, 0.7);
+  border: solid 1px #666;
+  border-radius: 3px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.bg-product {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 90%;
+}
+
+.centrado_producto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_product {
+  width: 70%;
+}
+
+.img_product img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.info_product {
+  background: rgba(228, 228, 227, 0.856);
+  border: solid 1px #666;
+  border-radius: 3px;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-right: 10%;
+  margin-left: -10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info_product h1,
+.card-title {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.product_precio {
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+}
+
+.product_desc,
+.card-text {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.product-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-carrito,
+.btn-comprar {
+  width: 80%;
+  margin-top: 10px;
+}

@@ -24,6 +24,7 @@
   border: 1px #999 solid;
 }
 
+/* Estilo del main background de la landing page */
 .splash {
   background: url(../img/egg_background.jpg) center center fixed;
   width: 100%;
@@ -32,6 +33,7 @@
   padding: 0;
 }
 
+/* Estilo de las cards en la página cards.html */
 .home_cards {
   display: flex;
   height: 100%;
@@ -43,6 +45,7 @@
   width: 30%;
 }
 
+/* Fondo amarillo transparente para el form y el table */
 .yellow_card {
   background: rgba(255, 214, 0, 0.7);
   border: solid 1px #666;
@@ -51,18 +54,21 @@
   box-sizing: border-box;
 }
 
+/* Fondo de la sección de detalles del producto */
 .bg-product {
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 90%;
 }
 
+/* Herramienta de centrado del contenido en la sección del producto */
 .centrado_producto {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Estilo de la imagen del producto */
 .img_product {
   width: 70%;
 }
@@ -72,6 +78,7 @@
   border-radius: 5px;
 }
 
+/* Estilo de la información del lado izquierdo del producto en product.html */
 .info_product {
   background: rgba(228, 228, 227, 0.856);
   border: solid 1px #666;
@@ -91,6 +98,7 @@
   font-size: 30px;
 }
 
+/* Estilos particulares para las distintas secciones de la info del producto */
 .product_precio {
   font-weight: 700;
   text-align: center;

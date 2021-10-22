@@ -30,7 +30,7 @@ para agregar al carrito. A esta pagina se accederá con el botón en al tabla de
 detalle.
 </ESPAÑOL>
 
-<ENGLISH>
+< ENGLISH >
 Basic Landing Page to practise HTML, CSS & BOOTSTRAP at the FullStack Dev course of EGG Education
 These are the exercises that have been performed along with the EGG Education FullStack guide:
 
@@ -59,4 +59,4 @@ product name, price and two buttons: one for add to cart and the other one for b
 product. This page must be accessed from the table product and card product pages.
 
 Hope you like it!
-</ENGLISH>
+< /ENGLISH >
